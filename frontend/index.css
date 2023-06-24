@@ -1,0 +1,150 @@
+nav {
+    width: 100%;
+    text-align: center;
+    height: 56px;
+    font-size: 22px;
+    background-color: lightslategrey;
+    padding-top: 25px;
+    color: white;
+    font-weight: 40;
+  }
+  #container {
+    width: 60%;
+    font-family: sans-serif;
+    height: auto;
+    border: 1px solid black;
+    margin: auto;
+    margin-top: 40px;
+    background-color: rgb(162, 183, 184);
+  }
+
+  #inputs {
+    margin-left: 35%;
+    margin-top: 30px;
+    width: 400px;
+    text-align: center;
+    background-color: rgb(162, 183, 184);
+    height: 200px;
+    padding-top: 20px;
+  }
+  input {
+    width: 300px;
+    height: 40px;
+  }
+  #addbtn {
+    width: 100px;
+    height: 40px;
+    background-color: rgb(109, 164, 109);
+  }
+
+  .cardData {
+    width: 90%;
+    height: auto;
+    background-color: lightslategrey;
+    margin: 20px;
+    color: white;
+    padding-left: 40px;
+    padding-bottom: 20px;
+    font-size: 18px;
+  }
+  #delete {
+    background-color: rgb(237, 128, 116);
+  }
+
+  #update {
+    background-color: rgb(149, 213, 225);
+  }
+
+  .popup {
+    display: none; /* Hide the popup by default */
+    position: fixed; /* Position the popup */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+  }
+
+  .popup-content {
+    background-color: #fff;
+    width: 380px;
+    height: 170px;
+    margin: 100px auto; /* Center the popup */
+    margin-top: 300px;
+    padding: 20px;
+    background-color: rgb(138, 170, 176);
+    border-radius: 5px;
+  }
+
+  .close {
+    color: #1d1212;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+
+  .close:hover,
+  .close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  #submit {
+    background-color: rgb(44, 80, 91);
+    color: white;
+    border: none;
+    font-size: 16px;
+    margin-left: 40%;
+    width: 60px;
+    height: 30px;
+    font-weight: bold;
+  }
+
+
+  @media all and (min-width:100px) and (max-width:400px){
+    #inputs {
+    margin-left: 0%;
+    margin-top: 30px;
+    width: 250px;
+    text-align: center;
+    background-color: rgb(162, 183, 184);
+    height: 200px;
+    padding-top: 20px;
+  }
+
+  input {
+    width: 210px;
+    height: 30px;
+  }
+  .popup-content {
+    background-color: #fff;
+    width: 240px;
+    height: 170px;
+    margin: 100px auto; /* Center the popup */
+    padding: 20px;
+    background-color: rgb(138, 170, 176);
+    border-radius: 5px;
+  }
+
+  #container {
+    width: 230px;
+    font-family: sans-serif;
+    height: auto;
+    border: 1px solid black;
+    margin: auto;
+    margin-top: 40px;
+    background-color: rgb(162, 183, 184);
+  }
+
+  .cardData {
+    width: 70%;
+    height: auto;
+    background-color: lightslategrey;
+    margin: 20px;
+    color: white;
+    padding-left: 40px;
+    padding-bottom: 20px;
+    font-size: 13px;
+  }
+    }

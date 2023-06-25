@@ -1,4 +1,4 @@
-# todo_assignment
+# TodoApp
 
 Netlify link : https://6497e1470342ec58e66dc402--meek-speculoos-ada0c7.netlify.app/
 <br>

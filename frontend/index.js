@@ -5,7 +5,7 @@ let one = document.querySelector("#container");
 let arr = [];
 async function getTodos() {
   try {
-    let data = await fetch("http://localhost:4500/api/todo/", {
+    let data = await fetch("https://todoapp-38cj.onrender.com/api/todo/", {
       method: "GET",
       headers: {
         "content-type": "application/json",
@@ -53,7 +53,7 @@ function AddTodoFun() {
   };
   async function AddTodos() {
     try {
-      let data = await fetch("http://localhost:4500/api/todo/", {
+      let data = await fetch("https://todoapp-38cj.onrender.com/api/todo/", {
         method: "POST",
         body: JSON.stringify(obj),
         headers: {
@@ -80,7 +80,7 @@ function deletefunction() {
 deleteTodo(id)
   async function deleteTodo(id) {
     try {
-      let data = await fetch(`http://localhost:4500/api/todo/delete/${id}`, {
+      let data = await fetch(`https://todoapp-38cj.onrender.com/api/todo/delete/${id}`, {
         method: "DELETE",
         headers: {
           "content-type": "application/json",
@@ -120,7 +120,7 @@ function submit() {
   updateTodo(Id);
   async function updateTodo(Id) {
     try {
-      let data = await fetch(`http://localhost:4500/api/todo/update/${Id}`, {
+      let data = await fetch(`https://todoapp-38cj.onrender.com/api/todo/update/${Id}`, {
         method: "PATCH",
         body: JSON.stringify(editObj),
         headers: {

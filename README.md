@@ -6,9 +6,8 @@ Render backend deployment link: https://todoapp-38cj.onrender.com
 
 Tech Stacks used:
  1. For frontend: HTML, CSS, JavaScript
-  <br>
  2. For backend: Typescript, Node.js, Express.js
-<br>
+ <br>
 Database used: MongoDB
 
 # To start project: 
